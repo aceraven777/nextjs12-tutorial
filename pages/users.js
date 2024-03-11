@@ -1,8 +1,4 @@
-
-
 function UserList({ users }) {
-console.log('----2')
-console.log(users)
     return (
         <>
             <h1>List of users</h1>
