@@ -1,7 +1,7 @@
-import { useRouter } from "next/router";
+import { useRouter } from "next/router"
 
 function ProductDetail() {
-    const router = useRouter();
+    const router = useRouter()
 
     return <h1>Details about product {router.query.productId}</h1>
 }
